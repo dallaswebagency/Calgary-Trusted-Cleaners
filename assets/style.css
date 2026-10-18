@@ -82,3 +82,5 @@ footer{background:var(--g2);color:#cddcf2;padding:0 0 24px;position:relative;ove
 .strip ul{grid-template-columns:1fr 1fr}.strip li{padding:16px 12px;gap:10px;border-left:0;border-top:1px solid rgba(255,255,255,.15)}.strip li:nth-child(-n+2){border-top:0}.strip li:nth-child(even){border-left:1px solid rgba(255,255,255,.15)}.strip svg{width:26px;height:26px}.strip b{font-size:18px}.strip span{font-size:13px}
 .aws .head{padding:0}.awn li{align-items:flex-start}.steps li{padding:26px 22px}.hero2 h1{font-size:clamp(34px,10.5vw,44px)}.hero2 .acts .btn{width:100%}.pgrid{gap:18px}.band .acts{width:100%}.band .acts .btn{width:100%}}
 @media(max-width:380px){.strip ul{grid-template-columns:1fr}.strip li,.strip li:nth-child(even){border-left:0}.strip li:nth-child(2){border-top:1px solid rgba(255,255,255,.15)}}
+/* no dash before section labels */
+.eyebrow:before,.aws .eyebrow:before,.hero2 .eyebrow:before,.pr .eyebrow:before{display:none!important;content:none!important}.eyebrow{gap:0}
