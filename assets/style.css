@@ -84,3 +84,4 @@ footer{background:var(--g2);color:#cddcf2;padding:0 0 24px;position:relative;ove
 @media(max-width:380px){.strip ul{grid-template-columns:1fr}.strip li,.strip li:nth-child(even){border-left:0}.strip li:nth-child(2){border-top:1px solid rgba(255,255,255,.15)}}
 /* no dash before section labels */
 .eyebrow:before,.aws .eyebrow:before,.hero2 .eyebrow:before,.pr .eyebrow:before{display:none!important;content:none!important}.eyebrow{gap:0}
+.fbot .credit{margin-left:auto;text-align:right}@media(max-width:760px){.fbot .credit{margin-left:0;text-align:left}}
